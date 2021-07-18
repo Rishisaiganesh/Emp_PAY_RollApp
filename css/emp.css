@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: right;
     padding: 0  280px;
     border: 0px solid green;
 }
@@ -23,7 +23,7 @@ body {
     width: 80%;
 }
 .logoContent img {
-   width: 5%;
+   width: 1%;
 }
   
 .emp-text {
@@ -90,5 +90,19 @@ label {
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+}
+.profile-radio-content {
+    direction: flex;
+    flex-direction: row;
+}
+.profile-radio-content > label {
+    display: inline;
+    flex-direction: row;
+    align-items: center;
+}
+.profile {
+    width: 40px;
+    border-radius:  50%;
+    margin-left: 12px;
 }
 

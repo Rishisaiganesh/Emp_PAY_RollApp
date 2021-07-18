@@ -11,10 +11,11 @@
         <header class="header-content header">
             <div class="logo-content">
                 <img src="..\assets\jj.img" alt="">
-
-            </div>
+                <div>
             <span class="emp-text">Employee</span><br>
             <span class="emp-text emp-payroll">PAYROLL</span>
+                </div>
+            </div>
         </header>
         <div class="form-content">
             <form class="form" action="#" onsubmit="save();return false">
@@ -23,8 +24,35 @@
                     <label class="label text" for="name">Name</label>
                     <input class="input" type="text" id="name" name="name" placeholder="Yours name.." required>
                 </div>   
-                
-            </form>
+
+        <div class="row-content">
+            <label class="label text" for="profile">Profile image</label>
+            <div class="profile-radio-content">
+                <label>
+                    <input type="radio" id="profile1" name="profile"
+                           value="..\asserts\ICON1.jpg " required>
+                     <img class="profile" id='image1' src="..\assets\p1.img ">      
+                </label>
+                <label>
+                    <input type="radio" id="profile2" name="profile"
+                           value="..\asserts\ICOn2.jpg " required>
+                    <img class="profile" id='image2' src="..\assets\p2.img">
+
+                </label>
+                <label>
+                    <input type="radio" id="profile3" name="profile"
+                           value="..\asserts\i3.jpg " required>
+                    <img class="profile" id='image3' src="..\assets\p3.img "> 
+                </label>
+                <label>
+                    <input type="radio" id='profile4' name="profile"
+                            value="..\asserts\i4.jpg " required>
+                    <img class="profile" id='image4' src="..\assets\p4.img ">
+                </label> 
+            </div>
         </div>
+        </form>
+        </div>
+
     </body>
 </html>
