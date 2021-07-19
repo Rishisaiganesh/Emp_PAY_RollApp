@@ -105,4 +105,49 @@ label {
     border-radius:  50%;
     margin-left: 12px;
 }
+.lable {
+    margin-right: 20px;
+    margin-left: 12px;
+}
+.slider {
+    min-width: 350px;
+}
+.salaryContant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    margin-right: 12px;
+}
+select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    background-color: transparent;
+}
+.buttonParent {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.button {
+    font-size: 20px;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    opacity: 1;
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    min-width: 140px;
+    padding: 7px 7px;
+    border: 1px solid #707070;
+    cursor: pointer;
+}
 
