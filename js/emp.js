@@ -7,19 +7,10 @@ salary.addEventListener('input',function(){
 })
 
 class EmployeePayrollData {
-    id
-    name
-    salary
-    gender
-    startdate
-    
-    constructor(...params){
-        this.id = params[0]
-        this.name = parms[1]
-        this.salary = params[2]
-        this.gender = params[3]
-        this.startdate = params[4]
+    get id() {
+        return this.id;
     }
+    
     get name() {
         return this.name;
     }
@@ -29,6 +20,42 @@ class EmployeePayrollData {
         this.name = name;
         else
         throw 'Invalid Name content';
+    }
+    get profilePic() {
+        return this.profilePic;
+    }
+    set profilePic(profilePic){
+        this.profilePic = profilePic;
+    }
+    get gender() {
+        return this.gender;
+    }
+    set gender(gender) {
+        this.gender = gender;
+    }
+    get department(){
+        return this.department;
+    }
+    set department(department) {
+        this.department = department;
+    }
+    get salary() {
+        return this.salary
+    }
+    set salary(salary) {
+        this.salary = salary;
+    }
+    get note() {
+        return this.note;
+    }
+    set note(note) {
+        this.note = note;
+    }
+    get startDate() {
+        return this.startDate;
+    }
+    set startDate(startDate) {
+        this.startDate = startDate;
     }
     toString() {
     
